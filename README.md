@@ -16,16 +16,16 @@
 ## Встановлення
 
 ```bash
-git clone https://github.com/TWOJ_NICK/fetch.git
-cd myfetch
-chmod +x myfetch.py
+git clone https://github.com/Erynvel/Erynfetch.git
+cd Erynfetch
+chmod +x Erynfetch.py
 ```
 
 Щоб запускати командою з будь-якого місця, створи символічне посилання:
 
 ```bash
 mkdir -p ~/.local/bin
-ln -s "$(pwd)/myfetch.py" ~/.local/bin/myfetch
+ln -s "$(pwd)/Erynfetch.py" ~/.local/bin/Erynfetch
 ```
 
 Переконайся, що `~/.local/bin` є у `PATH`.
@@ -33,13 +33,13 @@ ln -s "$(pwd)/myfetch.py" ~/.local/bin/myfetch
 ## Використання
 
 ```bash
-./myfetch.py
+./Erynfetch.py
 ```
 
 або, після встановлення посилання:
 
 ```bash
-myfetch
+Erynfetch
 ```
 
 ## Ліцензія
